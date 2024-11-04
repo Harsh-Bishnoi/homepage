@@ -118,10 +118,6 @@ section {
     background-position: center;
 }
 
-.navbar {
-    background: transparent;
-}
-
 .bg-layer::after {
     background-color: #00000091;
     content: "";
@@ -130,6 +126,10 @@ section {
     top: 0%;
     right: 0%;
     position: absolute;
+}
+
+.earth-img {
+    padding-left: 70px;
 }
 
 .event {
@@ -797,16 +797,19 @@ section {
     margin-left: 18px;
 }
 
-.pl-81 {
-    padding-left: 81px;
-}
-
-.pl-112 {
-    padding-left: 112px;
-}
-
 .mt-12 {
     margin-top: 12px;
+}
+
+.event-2 {
+    font-family: "poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #2C49FE;
+    cursor: pointer;
+    padding-right: 110px;
 }
 
 .adipiscing {
