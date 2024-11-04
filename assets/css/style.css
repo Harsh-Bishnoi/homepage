@@ -89,10 +89,6 @@ section {
     margin-top: 15px;
 }
 
-.mt-40 {
-    margin-top: 40px;
-}
-
 .z-index-1 {
     z-index: 1;
 }
@@ -128,9 +124,9 @@ section {
     position: absolute;
 }
 
-.earth-img {
+/* .earth-img {
     padding-left: 70px;
-}
+} */
 
 .event {
     font-family: "poppins", sans-serif;
@@ -405,10 +401,6 @@ section {
     background-color: white;
 }
 
-.gap-30 {
-    gap: 30px;
-}
-
 .text-center {
     text-align: center;
 }
@@ -638,10 +630,6 @@ section {
     box-shadow: 2px 9px 32px 0px #0000000F;
 }
 
-.gap-31 {
-    gap: 31px;
-}
-
 .join-us {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
@@ -737,7 +725,7 @@ section {
     padding: 11px 28px 11px 28px;
     border-radius: 23px;
     color: #2C49FE;
-    border: 1px solid #00000066;
+    border: 1px solid #2C49FE;
     margin-top: 35px;
     margin-bottom: 35px;
     cursor: pointer;
@@ -748,7 +736,6 @@ section {
 .sign-up-btn:hover {
     color: white;
     background-color: #2C49FE;
-    border: none;
 }
 
 /********** section 3 end  **********/
@@ -809,7 +796,7 @@ section {
     text-align: left;
     color: #2C49FE;
     cursor: pointer;
-    padding-right: 110px;
+    /* padding-right: 110px; */
 }
 
 .adipiscing {
@@ -927,7 +914,6 @@ section {
         right: 0;
     }
 
-
     input:checked~label[for="openslider"] span:first-child {
         transform: rotate(30deg);
         transform-origin: left;
@@ -943,6 +929,23 @@ section {
         opacity: 0;
         visibility: hidden;
     }
+
+    .mt-mb {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .end {
+        padding-left: 100px;
+    }
+
+    .about {
+        padding-left: 20px;
+    }
+
+    .service {
+        padding-left: 20px;
+    }
 }
 
 .col-12 {
@@ -954,6 +957,12 @@ section {
 @media (min-width:576px) {
     .col-sm-6 {
         width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-3 {
+        width: 25%;
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -981,20 +990,6 @@ section {
         padding-left: 12px;
         padding-right: 12px;
     }
-}
-
-@media (min-width:992px) {
-    .col-lg-3 {
-        width: 25%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .check {
-        width: 962px;
-        height: 108px;
-    }
-
 }
 
 @media (max-width:767.98px) {
@@ -1025,25 +1020,6 @@ section {
 
     .go-check {
         margin-left: 40px;
-    }
-}
-
-@media (max-width:991.98px) {
-    .mt-mb {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .end {
-        padding-left: 100px;
-    }
-
-    .about {
-        padding-left: 20px;
-    }
-
-    .service {
-        padding-left: 20px;
     }
 }
 
@@ -1083,8 +1059,26 @@ section {
         padding-left: 12px;
         padding-right: 12px;
     }
-}
 
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .check {
+        width: 962px;
+        height: 108px;
+    }
+
+    .event-2 {
+        padding-right: 110px;
+    }
+
+    .earth-img {
+        padding-left: 70px;
+    }
+}
 
 @media (max-width:573.98px) {
     .para {
@@ -1096,25 +1090,14 @@ section {
     .para {
         padding-top: 90px;
     }
-}
 
-@media (max-width:413.98px) {
-    .members-row {
-        margin-top: 100px;
-    }
-}
-
-@media (max-width:403.98px) {
     .members-row {
         margin-top: 150px;
     }
 }
 
-@media (min-width:576px) {
-
-    .col-sm-3 {
-        width: 25%;
-        padding-left: 12px;
-        padding-right: 12px;
+@media (max-width:413.98px) {
+    .members-row {
+        margin-top: 100px;
     }
 }
