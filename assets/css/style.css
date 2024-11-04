@@ -448,6 +448,7 @@ section {
     border-radius: 5px;
     margin-top: 50px;
     padding: 45px 20px 17px 20px;
+    color: #2C49FE;
 }
 
 .rectangle-box:hover {
@@ -456,7 +457,7 @@ section {
 }
 
 .circle-box {
-    padding: 22px;
+    padding: 15px;
     border: 2px solid #2c49fe;
     border-radius: 50px;
     background-color: #FFFFFF;
@@ -465,6 +466,8 @@ section {
     left: 50%;
     top: 0;
     transform: translate(-50%, -50%);
+    height: 70px;
+    width: 70px;
 }
 
 /********** section 1 end **********/
